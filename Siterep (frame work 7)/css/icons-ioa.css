@@ -1,0 +1,160 @@
+.login-screen-content {
+    background: #dae4ec !important;
+}
+i.icon.margin{
+    margin-right: 10px;
+}
+
+i.icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-style: normal;
+    position: relative;
+}
+
+i.icon.checked{
+    width: 29px;
+    height: 29px;
+    background-image: url(../icons/checked.svg);
+    border-radius: 6px;
+}
+i.icon.loc{
+    width: 29px;
+    height: 29px;
+    background-image: url(../icons/loc.svg);
+    border-radius: 6px;
+}
+
+
+i.icon.add{
+    width: 29px;
+    height: 29px;
+    background-image: url(../icons/add.svg);
+    border-radius: 6px;
+}
+
+i.icon.avatar{
+    width: 29px;
+    height: 29px;
+    background-image: url(../icons/avatar.svg);
+    border-radius: 6px;
+}
+i.icon.home{
+    width: 29px;
+    height: 29px;
+    background-image: url(../icons/home.svg);
+    border-radius: 6px;
+}
+
+i.icon.search{
+    width: 29px;
+    height: 29px;
+    background-image: url(../icons/magnifying-glass.svg);
+    border-radius: 6px;
+}
+i.icon.ven{
+    width: 29px;
+    height: 29px;
+    background-image: url(../icons/ven.svg);
+    border-radius: 6px;
+}
+
+i.icon.lock{
+    width: 29px;
+    height: 29px;
+    background-image: url(../icons/locked.svg);
+    border-radius: 6px;
+}
+
+i.icon.camera{
+    width: 29px;
+    height: 29px;
+    background-image: url(../icons/photo-camera.svg);
+    border-radius: 6px;
+}
+i.icon.unit{
+    width: 29px;
+    height: 29px;
+    background-image: url(../icons/pack.svg);
+    border-radius: 6px;
+}
+i.icon.qun{
+    width: 29px;
+    height: 29px;
+    background-image: url(../icons/Qunt.svg);
+    border-radius: 6px;
+}
+
+i.icon.box{
+    width: 29px;
+    height: 29px;
+    background-image: url(../icons/boxes.svg);
+    border-radius: 6px;
+}
+
+i.icon.nestle{
+    width: 29px;
+    height: 29px;
+    background-image: url(../icons/Nestlé.svg);
+    border-radius: 6px;
+}
+
+.infinite-scroll-preloader {
+  margin-top:-20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.infinite-scroll-preloader .preloader {
+  width:34px;
+  height:34px;
+}
+
+.fixed-nav-bar {
+  /*position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;*/
+    
+    left:0;
+    top:0;
+    height: 44px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 17px;
+    position: relative;
+    margin: 0;
+    z-index: 500;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  background-color:#ffffff;
+   
+}
+
+.fixed{
+  /*position: fixed;
+  top: 0;
+  left: 0;
+ 
+  width: 100%;
+  height: 50px;*/
+   
+   overflow: scroll;
+
+    margin-top:-24px;
+    position: fixed !important;
+ background-color:#fff;
+    width:90% !important;
+     z-index: 9999;
+}
+
+.coloring{
+  
+     background-color:#ffffff ;
+    
+    
+}

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS-->
+    <!--<link rel="stylesheet" href="css/framework7.ios.min.css">
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">-->
+      <link rel="stylesheet" href="css/framework7.material.min.css">
+    <!-- Path to Framework7 color related styles, Material Theme -->
+            <link rel="stylesheet" href="css/icons-ioa.css">
+            <link rel="stylesheet" href="css/Buttons.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block">
+        <p>Left panel content goes here</p>
+      </div>
+    </div>
+    <!-- Right panel with cover effect-->
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <!--<div  style="display:none" class="navbar">
+          <div class="navbar-inner">
+            
+            <div class="center sliding">SiteRep</div>
+            <div class="right">
+               <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+            </div>
+          </div>
+        </div>-->
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content-->
+              
+              
+             <!-- <div class="navbar">
+              <div class="navbar-inner">
+                <div class="center">Awesome App</div>
+              </div>
+            </div>
+ 
+           
+            <div class="toolbar">
+              <div class="toolbar-inner">
+               
+                <a href="#" class="link">Link 1</a>
+                <a href="#" class="link">Link 2</a>
+              </div>
+            </div>-->
+              
+            <div style="background-color:#F8F9FA;" class="page-content">
+             
+             <img  src="Sit.png" alt="Mountain View" style=" width:120px;height:53px; margin-left:30%; margin-right:-50%; margin-top:45%">
+              
+                <a id="intre2st" style="border:solid;  border-width:1px; border-color:#1EBAD2 !important; border-radius:10px; margin-left:5%; margin-right:5%; margin-top:20%" href="#" class="button button-raised"><span style="margin-left:-32%; margin-top:-100% !important; color:#1EBAD2">SIGN IN WITH GOOGL</span></a>
+                <a id="siter2eps" style="border:solid;  border-width:1px; border-color:#1EBAD2 !important; border-radius:10px; margin-left:5%; margin-right:5%; margin-top:5%" href="#" class="button button-raised"><span style="margin-left:-32%; margin-top:-100% !important; color:#1EBAD2">SIGN IN WITH FACEBOOK</span></a>
+                 <a id="siter2ep" style="border:solid;  border-width:1px; border-color:#1EBAD2 !important; border-radius:10px; margin-left:5%; margin-right:5%; margin-top:5%" href="#" class="button button-raised"><span style="margin-left:-32%; margin-top:-100% !important; color:#1EBAD2">SIGN IN WITH TWITTER</span></a>
+   
+                
+                
+                
+                <div style="margin-top:20%" class="row">
+                    
+                    <div class="col-40"><a id="signup" href="form.html" style="float:left; margin-top:37%" class="button">Get Started</a></div>
+    <!-- Each "cell" has col-[widht in percents] class -->
+    <div class="col-50"><a style=" float:right;margin-right:14%; margin-top:30%" class="button open-login-screen">SIGN IN</a></div>
+<!--    <div class="col-15">  <div style="height: 70px;width:3px;background-color: grey !important;margin-left:55%;margin-top:8%">I</div></div>-->
+    
+</div>
+                
+                
+                
+               <!-- <a style="margin-right:20%; margin-top:30%" class="button open-login-screen">SIGN IN</a> 
+                <a id="sgup" href="form.html" style="float:left; margin-top:30%" class="button">Get Started</a>
+                <div  style="float:left; margin-left:-33%; margin-top:40%" >Create SiteRep Account</div>
+                 <div style="float:right; margin-right:6%; margin-top:-1%" >Exissting  Account</div>
+                <div style="margin-left:45%;margin-top:8%"><span style=" font-size: 150%;">or</span></div>
+                <div style="height: 70px;width:3px;background-color: grey !important;margin-left:55%;margin-top:8%">I</div>-->
+                
+                
+                
+                
+                <div class="login-screen">
+                    <div class="navbar" style="background-color:#1EBAD2">
+              <div class="navbar-inner">
+                  <div class="center">Sit<span style="color:black">Rep</span></div>
+              </div>
+            </div>
+    <div class="view">
+      <div class="page">
+        <div style="background-color:#F8F9FA !important"class="page-content login-screen-content">
+            <div class="login-screen-title"><span style="color:#1EBAD2">Sit</span>Rep</div>
+          <form>
+            <div class="list-block">
+              <ul>
+                <li class="item-content">
+<div class="item-content">
+<div class="item-media"><i class="icon icon-form-name"></i></div>
+<div class="item-inner">
+<div class="item-title floating-label">Email</div>
+<div class="item-input item-input-field">
+<input id="email" type="text" placeholder="" class="">
+</div>
+</div>
+</div>
+                </li>
+                <li class="item-content">
+                 <div class="item-content">
+<div class="item-media"><i class="icon icon-form-password"></i></div>
+<div class="item-inner">
+<div class="item-title floating-label">Password</div>
+<div class="item-input item-input-field">
+<input id="password" type="password" placeholder="" class="">
+</div>
+</div>
+</div>
+                </li>
+              </ul>
+            </div>
+            <div class="list-block">
+              <ul>
+                  <li><div id="login" style="height:33px;border:solid;border-width:1px;border-color:white;background-color:#1EBAD2;color:white; text-align:center;margin-left:12%;margin-right:12%;padding-top:7px;">Sign In</div></li>
+              </ul>
+              <div class="list-block-label">
+                <p style="color:rgb(138,223,231);">FORGET PASSWORD?</p>
+                <p ><a style="color:rgb(138,223,231);" href="#" class="close-login-screen">Close Login Screen</a></p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+                
+                
+                
+                
+               
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Toolbar-->
+        <div style="display:none" class="toolbar">
+          <div class="toolbar-inner"><a href="#" class="link">Link 1</a><a href="#" class="link">Link 2</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+        <script type="text/javascript" src="js/gmaps.min.js"></script>
+       <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+     
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+      
+      
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+    <script type="text/javascript" src="js/getting.js"></script>
+    <script type="text/javascript" src="js/Postings.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    var pictureSource;   // picture source
+    var destinationType; // sets the format of returned value 
+    // Wait for PhoneGap to connect with the device
+    //
+    document.addEventListener("deviceready",onDeviceReady,false);
+    // PhoneGap is ready to be used!
+    //
+    function onDeviceReady() {
+        
+          document.addEventListener("backbutton", onBackKeyDown, false);
+        
+        function onBackKeyDown(){
+            e.preventDefault();
+              myApp.confirm('Are you sure you want to exit the Application ?', function () {
+                  navigator.app.exitApp();
+    });
+            
+        }
+        
+        
+        
+        
+        camera.getPicture(onSuccess, onFail, options);
+        
+        function onSuccess() {
+    alert("Camera cleanup success.");
+}
+
+function onFail(message) {
+    alert('Failed because: ' + message);
+}
+        pictureSource=navigator.camera.PictureSourceType;
+        destinationType=navigator.camera.DestinationType;
+    }
+  
+    function onPhotoDataSuccess(imageData) {
+     
+      var smallImage = document.getElementById('smallImage');
+      
+      smallImage.style.display = 'block';
+     
+      smallImage.src = "data:image/jpeg;base64," + imageData;
+    }
+    
+	
+    function onPhotoFileSuccess(imageData) {
+      
+      console.log(JSON.stringify(imageData));
+      
+   	 
+      var smallImage = document.getElementById('smallImage');
+      
+      smallImage.style.display = 'block';
+      
+      smallImage.src = imageData;
+    }
+    
+    function onPhotoURISuccess(imageURI) {
+      // Uncomment to view the image file URI 
+       console.log(imageURI);
+      // Get image handle
+      //
+      var largeImage = document.getElementById('largeImage');
+      // Unhide image elements
+      //
+      largeImage.style.display = 'block';
+      // Show the captured photo
+      // The inline CSS rules are used to resize the image
+      //
+        localStorage.setItem("image",imageURI)
+      largeImage.src = imageURI;
+    }
+    // A button will call this function
+    //
+    function capturePhotoWithData() {
+      // Take picture using device camera and retrieve image as base64-encoded string
+        //alert('ter');
+      navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 50 });
+    }
+    function capturePhotoWithFile() {
+        navigator.camera.getPicture(onPhotoFileSuccess, onFail, { quality: 50, destinationType: Camera.DestinationType.FILE_URI });
+    }
+    
+    // A button will call this function
+    //
+    function getPhoto() {
+      // Retrieve image file location from specified source
+      navigator.camera.getPicture(onSuccess, onFail, { quality: 50,  destinationType:  Camera.DestinationType.DATA_URL
+        });
+    }
+        function onSuccess(imageData){
+            
+           var c="data:image/jpeg;base64," + imageData;
+          // alert(c);
+            console.log(c); 
+            localStorage.setItem('image',imageData);
+            
+            var largeImage = document.getElementById('largeImage');
+      // Unhide image elements
+      //
+      // Show the captured photo
+      // The inline CSS rules are used to resize the image
+      //
+     
+      largeImage.src = "data:image/jpeg;base64," + imageData;
+            
+        }
+    // Called if something bad happens.
+    // 
+    function onFail(message) {
+      alert('Failed because: ' + message);
+    }
+    </script>
+    <script type="text/javascript" src="js/Validation.js"></script>
+        <script src="cordova1.js"></script>
+      //<!--  <script type="text/javascript" src="js/main.js"></script>-->
+  </body>
+</html>

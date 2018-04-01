@@ -1,0 +1,15 @@
+.joined{
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(138,223,231);
+    background-color:rgb(138,223,231);
+    color:white;
+}
+
+.join{
+    border-width:2px;
+    border-style:solid; 
+    border-color:rgb(138,223,231); 
+    color:rgb(138,223,231)
+    
+}
